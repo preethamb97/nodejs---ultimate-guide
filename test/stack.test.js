@@ -1,5 +1,3 @@
-const { execPath } = require("process");
-
 class Stack {
   constructor() {
     this.top = -1;
