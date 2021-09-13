@@ -1,4 +1,35 @@
 .dark {
-  background: rgb(33, 33, 33);
-  color:white;
+  background: #faa60a;
+  color:#fff;
+}
+
+.title {
+  color: #c1ffad;
+  margin-bottom: 5px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  display: inline-block;
+  background: #21371a;
+  border-left: #fff 1px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.eventloop {
+  width: 70px;
+  height: 70px;
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  right:0;
 }
