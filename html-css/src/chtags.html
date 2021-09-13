@@ -1,0 +1,96 @@
+<!-- common html tags -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link href="/main.css" rel="stylesheet" />
+  <!-- defines css stylesheet -->
+  <style></style>
+  <!-- exectutes javascript -->
+  <script></script>
+</head>
+
+<body class="dark">
+  <!-- provides a generic container for various purposes -->
+  <div style="background: red;">test</div>
+
+  <!-- title heading -->
+  <h1>page h1</h1>
+  <h3>page h3</h3>
+  <h6>page h6</h6>
+
+  <!-- paragraph for text block -->
+  <p></p>
+
+  <!-- inserts a line brak -->
+  <br />
+  <!-- wraps inline elements for styling -->
+  <span>this is a page</span>
+  <br />
+
+  <img src="eventloop.png" />
+  <br />
+  <a href="https://github.com/preethamb97" target="_blank">Preetham B github</a>
+
+  <table>
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>t1</td>
+        <td>t2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- show literal text -->
+  <pre>
+    intended? 
+          testing
+  </pre>
+
+
+  <form action="/somewhere" metho="post">
+    <!-- creates a single line input -->
+    <div>
+      Name:
+      <input type="text" />
+    </div>
+
+    <!-- creates a radio button -->
+    <div>
+      are you nodejs developer or PHP?
+      <input type="radio" name="developertype" /> Nodejs
+      <input type="radio" name="developertype" /> PHP
+    </div>
+
+    <!-- creates dropdown -->
+    <div>
+      <select>
+        <option value="t1">test1</option>
+        <option value="t2">test2</option>
+      </select>
+    </div>
+
+    <div>
+      <textarea name="" id="" cols="30" rows="10">
+        test1
+        test2
+      </textarea>
+    </div>
+
+    <div>
+      check to confirm that you agree on the terms
+      <input type="checkbox" />
+    </div>
+
+    <button type="submit">send data</button>
+  </form>
+</body>
+
+</html>
