@@ -1,0 +1,16 @@
+{
+  "name": "nodejsauthmiddleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1"
+  }
+}
